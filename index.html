@@ -21,31 +21,29 @@
   </head>
   <body>
     <!-- Login Form -->
-    <div class="relative flex flex-col justify-center min-h-screen bg-cyan">
+    <div class="p-2 min-h-screen bg-cyan">
       <div
-        class="w-full p-6 m-auto bg-white rounded-md outline outline-8 outline-darkCyan sm:max-w-md md:"
+        class="sm:w-full md:w-96 p-6 m-auto mt-36 bg-white rounded-md outline outline-8 outline-darkCyan sm:max-w-xl"
       >
         <div class="relative">
           <span
-            class="inline-flex items-center justify-center absolute left-0 top-0 text-3xl h-full w-10 text-lightBlue"
+            class="inline-flex items-center justify-center absolute text-4xl h-full w-10 text-lightBlue"
           >
             <ion-icon name="md-person"></ion-icon>
           </span>
-          <h1 class="block text-3xl ml-10 font-semibold text-gray-400">
-            User Login
-          </h1>
+          <h1 class="text-3xl ml-10 font-semibold text-gray-400">User Login</h1>
         </div>
-        <form class="mt-6">
+        <form class="mt-3">
           <!-- User Input -->
           <div class="relative mb-4">
             <div
-              class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
+              class="inline-flex items-center justify-center absolute h-full w-10 text-gray-400"
             >
               <ion-icon name="md-person"></ion-icon>
             </div>
             <input
               type="email"
-              class="block w-full pr-4 pl-10 py-2 mt-2 text-black bg-white border-2 border-gray-200 rounded-md placeholder-gray-300"
+              class="w-full pl-10 py-2 text-black bg-white border-2 border-gray-200 rounded-md placeholder-gray-300"
               placeholder="user name"
             />
           </div>
@@ -53,19 +51,19 @@
           <!-- Password Input -->
           <div class="relative mb-2">
             <div
-              class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
+              class="inline-flex items-center justify-center absolute h-full w-10 text-gray-400"
             >
               <ion-icon name="key"></ion-icon>
             </div>
             <input
               type="password"
-              class="block w-full pr-4 pl-10 py-2 mt-2 text-black-700 bg-white border-2 rounded-md focus:border-black-400 placeholder-gray-300"
+              class="w-full pl-10 py-2 text-black-700 bg-white border-2 rounded-md placeholder-gray-300"
               placeholder="password"
             />
           </div>
           <div class="flex items-center justify-between mt-6">
             <button
-              class="bg-lightBlue hover:bg-blue-600 text-white py-1 px-5 rounded shadow-xl shadow-inner"
+              class="bg-lightBlue hover:bg-blue-600 text-white py-1 px-5 rounded-md shadow-inner"
               type="button"
             >
               Login
